@@ -1,0 +1,317 @@
+body{
+           background: black;
+            background-image: url('coffe.jpg');
+            background-repeat: no-repeat;
+            background-size: 1540px 750px;
+           /* background-position: center;*/
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(124, 107, 82);
+            border-radius: 12px;
+            border: 12px;
+            height: 60px;
+            width:90% ;
+            margin-left: auto;
+            a{
+                text-decoration: none;
+                color: blanchedalmond;
+                padding: 12px;
+                margin: 12px;
+                transition: .5s ease;
+                position: relative;
+                font-style: italic;
+                font-size: 19px;
+            } 
+            .anchor {
+                margin-top: 10px; 
+            }
+            .anchor a::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 6px;
+                height: 3px;
+                width: 0;
+                background-color: rgb(37, 21, 21);
+                transition: width 0.3s ease;
+            }
+            .anchor a:hover::after{
+                width: 100%;
+            }
+
+            .buttons{
+                margin-top: 20px;
+               padding-left: 14px;
+            }
+            .logo{
+            width: 70px;
+            height: auto;
+            } 
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li{
+                list-style: none;
+
+            }
+            
+            
+        }
+        
+        .button1{
+            border-radius: 12px;
+            outline: none;
+            color: blanchedalmond;
+            background-color: rgb(88, 49, 3);
+            border: none;
+            width: 125px;
+            height: 25px;
+            font-style: italic;
+            font-size: 19px;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+            transition: transform 200ms;
+        }
+        .button2{
+            border-radius: 12px;
+            outline: none;
+            color: blanchedalmond;
+            background-color:transparent;
+            border: 2px solid black;
+            width: 125px;
+            height: 25px;
+            font-style: italic;
+            font-size: 19px;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+            text-align: center;
+            transition: transform 200ms;
+            margin-left:15px ;
+        }
+        .button1:hover{
+            transform: translateY(-5px);
+        }
+        .button2:hover{
+            transform: translateY(-5px);
+        }
+        h4{
+            color: rgb(181, 149, 107);
+            font-family:   Cochin, Georgia, Times, 'Times New Roman', serif;
+           margin-left: 200px;
+           margin-top: 50px; 
+           font-size: 32px;
+        }
+        .heading1{
+            color: aliceblue;
+            margin-left: 200px;
+            font-size: 50px;
+            font-family:   Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .heading2{
+              color: rgb(242, 249, 35);
+              margin-left: 200px;
+              font-size: 60px;
+              font-family:   Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .info{
+            margin-top: 100px;
+            
+            p{
+                color: aliceblue;
+                margin-left: 200px;
+                font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        }
+        .infobuttons{
+            margin-top: 140px;
+            margin-left: 200px;
+
+            .button3,.button4{
+                border-radius: 12px;
+                border: 1px solid brown;
+                background-color: transparent;
+                color: aliceblue;
+                width: 150px;
+                height: 50px;
+                font-size: 15px;
+                font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-style: italic;
+                transition: transform 500ms;
+            }
+            .button4{
+                margin-left: 25px;
+            }
+            .button3:hover{
+                background-color: rgb(88, 49, 3);
+                color: aliceblue;
+                transform: scale(1.1);
+                border: none;
+            }
+            .button4:hover{
+                background-color: rgb(88, 49, 3);
+                color: aliceblue;
+                transform: scale(1.1);
+                border: none;
+            }
+        }
+        hr{
+            border: 2px solid;
+            margin-top: 25px;
+            color: rgb(131, 91, 45);;
+        }
+        h5{
+            align-items: center;
+            text-align: center;
+            color: aliceblue;
+            font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: underline;
+            font-size: 18px;
+        }
+        h2{
+            text-align: center;
+            color: rgb(197, 169, 9);
+            font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .dash{
+            margin-top: 20px;
+            text-align: center;
+            color:rgb(197, 169, 9); 
+        }
+        .paragraph2{
+            color: aliceblue;
+            text-align: center;
+            font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+        }
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 70px;
+            padding: 20px;
+            
+        }
+        .container:hover{
+            transform: scale(1.1);
+        }
+        .container{
+            border-radius: 15px;
+            width: 370px;
+            height: 580px;
+            box-shadow: 0 0 15px rgb(255, 255, 0);
+            transition: transform 1s;
+            img{
+                width: 370px;
+                height: 290px;
+                border-radius: 15px 15px 0px 0px;
+            }
+            
+            
+        }
+        .coffeename{
+          margin-left: 15px;
+            
+         h3{
+                color: aliceblue;
+                font-size: 24px;
+                font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        }
+        .coffeeinfo{
+            color: aliceblue;
+            font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 12px;
+        }
+        .coffeeprice{
+            font-size: 25px;
+            color: rgb(213, 160, 61);
+            padding: 12px;
+        }
+        .footer{
+              background-color: rgb(103, 70, 30);
+              display: flex;
+              justify-items: end;
+        }
+                .about{
+                    color: aliceblue;
+                    font-size: 20px;
+                    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+                    margin-top: 200px;
+                   margin-left: 200px;
+                   margin-bottom: 200px;
+                    .dash2{
+                        color: rgb(213, 160, 61);
+                    }
+            }
+            .about-cafe{
+                margin-top: 15px;
+            }
+            .social-media{
+               margin-top: 30px;
+                .icons{
+                    width: 45px;
+                    height: 45px;
+                    transition: transform 1s;
+                    padding-left: 19px;
+                }
+                .icons:hover{
+                    transform:scale(1.1) ;
+                }
+            }
+            .copyrights{
+                color: aliceblue;
+                margin-top: 500px;
+            }
+            @media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+height:auto;
+}
+
+#navbar{
+flex-direction:column;
+text-align:center;
+}
+
+.buttons{
+margin-top:10px;
+}
+
+.heading1{
+font-size:32px;
+margin-left:0;
+text-align:center;
+}
+
+.heading2{
+font-size:34px;
+margin-left:0;
+text-align:center;
+}
+
+p{
+margin-left:0;
+text-align:center;
+padding:10px;
+}
+
+.infobuttons{
+margin-left:0;
+text-align:center;
+}
+
+.container{
+max-width:90%;
+}
+
+}
+

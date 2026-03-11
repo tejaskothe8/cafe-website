@@ -14,8 +14,8 @@ app.use(express.json());
 if (process.env.NODE_ENV !== 'production') app.use(morgan('dev'));
 
 // ── Routes ──────────────────────────────────
-app.use('/api/auth',   require('./routes/authRoutes'));
-app.use('/api/orders', require('./routes/orderRoutes'));
+app.use('/api/auth',   require('./routes/authroutes'));
+app.use('/api/orders', require('./routes/orderroutes'));
 
 app.get('/', (_req, res) => res.json({ message: '☕ Cafe API running' }));
 
